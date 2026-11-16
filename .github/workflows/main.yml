@@ -26,4 +26,4 @@ jobs:
     - name: Install jshint
       run: npm install -g jshint
     - name: Lint JS with jshint
-      run: jshint server/database/app.js
+      run: jshint --config .jshintrc server/database/app.js
